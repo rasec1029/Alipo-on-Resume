@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Wilma G. Alipo-on</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      width: 850px;
+      margin: 30px auto;
+      background: #fff;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+      border: 3px solid #fff;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+    header p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    section {
+      padding: 20px 30px;
+      border-bottom: 1px solid #ddd;
+    }
+    section:last-child {
+      border-bottom: none;
+    }
+    h2 {
+      font-size: 20px;
+      color: #2c3e50;
+      margin-bottom: 10px;
+      border-left: 5px solid #3498db;
+      padding-left: 10px;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 8px;
+    }
+    .info-grid p {
+      margin: 2px 0;
+      font-size: 14px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+    .reference {
+      margin-bottom: 10px;
+    }
+    .cert {
+      text-align: center;
+      font-style: italic;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+    .applicant {
+      margin-top: 10px;
+      font-weight: bold;
+      text-align: right;
+      padding-right: 40px;
+    }
+
+    /* PRINT STYLES */
+    @media print {
+      body {
+        background: white;
+      }
+      .container {
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+        border-radius: 0;
+      }
+      header {
+        background: black; /* ensures readable contrast in print */
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      h2 {
+        border-left: 5px solid black; /* avoids color issues */
+        color: black;
+      }
+      section {
+        page-break-inside: avoid; /* prevent cutting sections */
+      }
+      @page {
+        size: A4; /* force A4 paper size */
+        margin: 15mm; /* adjust margins */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <!-- Replace "alipo-on.jpg" with your local photo -->
+      <img src="alipo-on.jpg" alt="Profile Photo">
+      <div>
+        <h1>WILMA G. ALIPO-ON</h1>
+        <p>Tuyom, Cauayan Negros Occidental</p>
+        <p>📞 +36 30 609 2618 | ✉ alipoonwilma@gmail.com</p>
+      </div>
+    </header>
+
+    <section>
+      <h2>Objective</h2>
+      <p>To be a part of highly competitive company, to enhance my knowledge and to have opportunities to utilize my skills and proven abilities in any position that will suit my capabilities.</p>
+    </section>
+
+    <section>
+      <h2>Personal Information</h2>
+      <div class="info-grid">
+        <p>Date of Birth:</p><p>October 14, 1992</p>
+        <p>Age:</p><p>32</p>
+        <p>Civil Status:</p><p>Single</p>
+        <p>Height:</p><p>163 cm</p>
+        <p>Weight:</p><p>58 kg</p>
+        <p>Citizenship:</p><p>Filipino</p>
+        <p>Religion:</p><p>Roman Catholic</p>
+        <p>Father:</p><p>Wilhem G. Alipo-on (Farmer)</p>
+        <p>Mother:</p><p>Marlyn G. Alipo-on (Housewife)</p>
+        <p>Languages:</p><p>Tagalog, English, Hiligaynon</p>
+        <p>Skills:</p><p>Computer Literacy</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Educational Background</h2>
+      <ul>
+        <li><strong>Vocational:</strong> St. Vincent College of Science and Technology, Leganes, Ilo-ilo – Computer Programming NCIV (2011)</li>
+        <li><strong>Secondary:</strong> Leganes National High School, Leganes Ilo-ilo (2008–2009)</li>
+        <li><strong>Primary:</strong> Tuyom Elementary School, Tuyom Cauayan Negros Occidental (2004–2005)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Working Experience</h2>
+      <ul>
+        <li><strong>Feb 2017 – Feb 2020:</strong> Factory Worker (Production Operator – FVI station), Formosa Advanced Technologies, Taiwan</li>
+        <li><strong>June 2015 – Dec 2016:</strong> Sales Associate, F&C Group of Companies, SM Rosales, Pangasinan</li>
+        <li><strong>Apr 2014 – Sept 2014:</strong> Sales Clerk, SM City Ilo-ilo</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Character References</h2>
+      <div class="reference">
+        <p><strong>Margarita A. Tupas</strong><br>Entrepreneur – Tupas Grocery and Rice Whole Selling<br>📞 09466064002 | Barotac Viejo, Ilo-ilo City</p>
+      </div>
+      <div class="reference">
+        <p><strong>Marjelou A. Melendres</strong><br>Owner – DM Cycle Part and Accessories<br>📞 09391621125 | Leganes, Ilo-ilo City</p>
+      </div>
+      <div class="reference">
+        <p><strong>Jessa Marie E. Serilo</strong><br>Manager – Jollibee Rosario, La Union<br>📞 09202300278 | Brgy. San Juan, Molo, Ilo-ilo City</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certification Statement</h2>
+      <p class="cert">I hereby certify that all information in this resume is true and correct to the best of my ability and knowledge.</p>
+      <p class="applicant">Applicant: WILMA G. ALIPO-ON</p>
+    </section>
+  </div>
+</body>
+</html>
